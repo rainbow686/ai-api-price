@@ -1,5 +1,1 @@
-{
-  "_comment": "Cron jobs disabled - Vercel Hobby plan only allows 1/day",
-  "_info": "Budget monitoring can be run manually or upgraded to Pro plan",
-  "_original_schedule": "*/5 * * * * (every 5 minutes)"
-}
+{}
