@@ -2,6 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Exclude deployment scripts from build
+  outputFileTracingExcludes: {
+    '*': ['./scripts/**/*'],
+  },
+
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -10,10 +14,6 @@ const nextConfig: NextConfig = {
   experimental: {
     serverActions: {
       bodySizeLimit: "10mb",
-    },
-    // Exclude scripts directory from build tracing
-    outputFileTracingExcludes: {
-      '*': ['./scripts/**/*'],
     },
   },
 
