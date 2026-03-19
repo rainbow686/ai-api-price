@@ -30,30 +30,32 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="bg-white border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h1 className="text-5xl font-bold text-slate-900 mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-            Real-time AI API Cost Tracking
-          </h1>
-          <p className="text-xl text-slate-600 max-w-3xl">
-            Monitor, optimize, and control your AI API spending across OpenAI, Anthropic, and Google.
-            Get instant insights and budget alerts.
-          </p>
-          <div className="flex gap-4 mt-8">
-            <a
-              href="/dashboard"
-              className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
-            >
-              Open Dashboard
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </a>
-            <a
-              href="/docs"
-              className="bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
-            >
-              View API Docs
-            </a>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-4xl">
+            <h1 className="text-5xl font-bold text-slate-900 mb-6" style={{ fontFamily: 'var(--font-display)' }}>
+              Real-time AI API Cost Tracking
+            </h1>
+            <p className="text-xl text-slate-600 mb-8" style={{ lineHeight: '1.7' }}>
+              Monitor, optimize, and control your AI API spending across OpenAI, Anthropic, and Google.
+              Get instant insights and budget alerts.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="/dashboard"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
+              >
+                Open Dashboard
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a
+                href="/docs"
+                className="bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
+              >
+                View API Docs
+              </a>
+            </div>
           </div>
         </div>
       </div>
