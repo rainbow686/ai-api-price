@@ -1,0 +1,19 @@
+# Vercel build configuration
+vercel.json
+
+# Deployment scripts
+scripts/
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
